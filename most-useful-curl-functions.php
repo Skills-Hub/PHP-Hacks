@@ -1,6 +1,15 @@
-$username='';
-$password='';
-$URL='';
+/**
+*
+* curlRequest()
+* a funciton that make a request with basic auth information 
+*
+*@param : $usermame
+*@param : $password 
+*@param : $url 
+*
+*@return : Object 
+*
+*/
 
 function curlRequest($username, $password, $url) { 
 $username = $username;
