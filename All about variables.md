@@ -23,6 +23,21 @@ PHP has three different variable scopes:
 ##### global
 ##### static
 
+### Global variables
+$GLOBALS — References all variables available in global scope
+
+##### $GLOBALS
+##### $_​SERVER
+##### $_​GET
+##### $_​POST
+##### $_​FILES
+##### $_​REQUEST
+##### $_​SESSION
+##### $_​ENV
+##### $_​COOKIE
+##### $http_​response_​header
+##### $argc
+##### $argv
 
 ### Conversion 
 ### Questions 
