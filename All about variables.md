@@ -40,7 +40,7 @@ $GLOBALS — References all variables available in global scope
 ##### $argv
 
 ### Variable variables
-### Variables From External Sources ¶
+### Variables From External Sources 
 ### Conversion 
 ### Questions 
 ### Challenges 
