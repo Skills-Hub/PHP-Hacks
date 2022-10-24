@@ -19,9 +19,9 @@ $text = 'This is variable';
 ### Scope 
 PHP has three different variable scopes:
 
-local
-global
-static
+##### local
+##### global
+##### static
 
 
 ### Conversion 
