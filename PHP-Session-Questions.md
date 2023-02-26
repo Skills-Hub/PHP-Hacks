@@ -1,17 +1,17 @@
 ## PHP Session related questions
 
-Which of the following PHP directives is used to specify the lifetime of a session cookie?
-a) session.name
-b) session.cookie_lifetime
-c) session.use_strict_mode
-d) session.cookie_secure
+Which of the following PHP directives is used to specify the lifetime of a session cookie? \
+a) session.name \
+b) session.cookie_lifetime \
+c) session.use_strict_mode \
+d) session.cookie_secure \
 
 
-Which of the following session handlers stores session data in a Redis server?
-a) Memcached
-b) APCu
-c) File
-d) Redis
+Which of the following session handlers stores session data in a Redis server? \
+a) Memcached \
+b) APCu \
+c) File \
+d) Redis \
 
 
 What is the default name of the session cookie in PHP?
