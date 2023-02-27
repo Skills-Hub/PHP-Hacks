@@ -111,3 +111,41 @@ echo "1" . 2 + 3; \
 A) 15 \
 B) 6 \
 C) Error
+What is a PHP data type? \
+A. Integer \
+B. Float \
+C. String \
+D. Boolean 
+
+Which of the following is not a valid PHP variable name? \
+A. $my_var \
+B. $_myVar \
+C. $myVar1 \
+D. $1myVar 
+
+Which function is used to check if a variable is an array or not? \
+A. is_int() \
+B. is_string() \
+C. is_array() \
+D. is_bool() 
+
+What is the output of the following code snippet?
+$a = "hello"; \
+
+echo $hello;
+A. world \
+B. hello \
+C. Error \
+D. Null 
+5. Which PHP loop iterates over the values of an array?
+A. while \
+B. for \
+C. foreach \
+D. do-while 
+6. What is the difference between ++$a and $a++?
+A. Same output \
+B. $a++ is faster \
+C. ++$a increments first \
+D. ++$a is faster \
+7. What is the correct way to declare a constant in PHP?
+A. define() 
