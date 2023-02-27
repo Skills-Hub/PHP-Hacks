@@ -147,5 +147,45 @@ A. Same output \
 B. $a++ is faster \
 C. ++$a increments first \
 D. ++$a is faster \
-7. What is the correct way to declare a constant in PHP?
-A. define() 
+
+7. What is the correct way to declare a constant in PHP? \
+A. define()  \
+
+
+What is the output of the following code snippet? \
+$arr = [1, 2, 3]; \
+echo count($arr); \
+
+A. 1 \
+B. 2 \
+C. 3 \
+D. Error 
+
+Which function is used to remove whitespace or other characters from the beginning and end of a string? \
+A. strtoupper \
+B. strtolower \
+C. trim \
+D. str_replace 
+
+What is the output of the following code snippet? \
+echo date("Y-m-d H:i:s"); \
+
+A. Current date \
+B. Current time \
+C. Timestamp \
+D. Error 
+
+Which function is used to search for a specific value in an array and return its key? \
+A. array_search \
+B. in_array \
+C. array_keys \
+D. array_count_values 
+
+What is the output of the following code snippet? \
+$str = "Hello World!"; \
+echo strrev($str); \
+
+A. !dlroW olleH \
+B. Hello World! \
+C. Error \
+D. Null
