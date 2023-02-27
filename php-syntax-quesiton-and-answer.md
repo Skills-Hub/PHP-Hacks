@@ -189,3 +189,9 @@ A. !dlroW olleH \
 B. Hello World! \
 C. Error \
 D. Null
+
+Which function is used to format a number with grouped thousands?
+A. number_format
+B. floor
+C. round
+D. ceil 
