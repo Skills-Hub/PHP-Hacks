@@ -4,51 +4,90 @@ Welcome to the PHP-Hacks repository! This is a collection of various PHP resourc
 
 ## Files Included 📁
 
-Here are the files included in this repository:
+Here are the topics covered in this repository:
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">Array</a>
-      <ul>
-        <li><a href="#built-with">Calendar</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Date</a>
-      <ul>
-        <li><a href="#prerequisites">Directory</a></li>
-        <li><a href="#installation">Error</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Exception</a></li>
-    <li><a href="#roadmap">Filesystem</a></li>
-    <li><a href="#contributing">Filter</a></li>
-    <li><a href="#license">FTP</a></li>
-    <li><a href="#contact">JSON</a></li>
-    <li><a href="#acknowledgments">Keywords</a></li>
-    <li><a href="#Libxml">Libxml</a></li>
-    <li><a href="#Mail">Mail</a></li>
-    <li><a href="#Math">Math</a></li>
-    <li><a href="#Misc">Misc</a></li>
-    <li><a href="#MySQLi">MySQLi</a></li>
-    <li><a href="#Network">Network</a></li>
-    <li><a href="#Output">Output</a></li>
-    <li><a href="#RegEx">RegEx</a></li>
-    <li><a href="#SimpleXML">SimpleXML</a></li>
-    <li><a href="#Stream">Stream</a></li>
-    <li><a href="#String">String</a></li>
-    <li><a href="#variable"></a>Var Handling </li>
-    <li><a href="#XML">XML</a></li>
-    <li><a href="#Parser">Parser</a></li>
-    <li><a href="#Zip">Zip</a></li>
-    <li><a href="#Timezones">Timezones</a></li>
-
-
-  </ol>
-</details>
+- PHP Syntax
+- PHP Comments
+- PHP Variables
+- PHP Echo / Print
+- PHP Data Types
+- PHP Strings
+- PHP Numbers
+- PHP Math
+- PHP Constants
+- PHP Operators
+- PHP If...Else...Elseif
+- PHP Switch
+- PHP Loops
+- PHP Functions
+- PHP Arrays
+- PHP Superglobals
+- PHP RegEx
+- PHP Form Handling
+- PHP Form Validation
+- PHP Form Required
+- PHP Form URL/E-mail
+- PHP Form Complete
+- PHP Advanced
+- PHP Date and Time
+- PHP Include
+- PHP File Handling
+- PHP File Open/Read
+- PHP File Create/Write
+- PHP File Upload
+- PHP Cookies
+- PHP Sessions
+- PHP Filters
+- PHP Filters Advanced
+- PHP Callback Functions
+- PHP JSON
+- PHP Exceptions
+- PHP OOP
+- PHP What is OOP
+- PHP Classes/Objects
+- PHP Constructor
+- PHP Destructor
+- PHP Access Modifiers
+- PHP Inheritance
+- PHP Constants
+- PHP Abstract Classes
+- PHP Interfaces
+- PHP Traits
+- PHP Static Methods
+- PHP Static Properties
+- PHP Namespaces
+- PHP Iterables
+- PHP XML
+- PHP XML Parsers
+- PHP SimpleXML Parser
+- PHP SimpleXML - Get
+- PHP XML Expat
+- PHP XML DOM
+- PHP Calendar
+- PHP Date
+- PHP Directory
+- PHP Error
+- PHP Exception
+- PHP Filesystem
+- PHP Filter
+- PHP FTP
+- PHP JSON
+- PHP Keywords
+- PHP Libxml
+- PHP Mail
+- PHP Math
+- PHP Misc
+- PHP MySQLi
+- PHP Network
+- PHP Output Control
+- PHP RegEx
+- PHP SimpleXML
+- PHP Stream
+- PHP String
+- PHP Variable Handling
+- PHP XML Parser
+- PHP Zip
+- PHP Timezones
 
 ## Usage 🚀
 
