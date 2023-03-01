@@ -3,8 +3,7 @@ Comments are used to add explanations and notes to PHP code that are not execute
 
 Example:
 
-``` csharp
-Copy code
+``` 
 // This is a single-line comment
 /* This is a 
    multi-line comment */
@@ -26,8 +25,7 @@ $new_result = $new_variable * 2; // This line will be executed
 Comments can be used to document functions and classes, allowing other developers to understand how they work.
 Example:
 
-perl
-Copy code
+```
 /**
  * This function calculates the area of a rectangle
  * 
@@ -38,11 +36,10 @@ Copy code
 function calculate_rectangle_area($length, $width) {
    return $length * $width;
 }
+```
 
 
 
-Mokter Hossain
-continue
 Sure, here are some additional key facts about PHP comments:
 
 Comments are not executed as code, but are used to provide human-readable explanations or to temporarily disable code during testing or debugging.
@@ -51,20 +48,23 @@ Comments can also be used to generate documentation for functions, classes, and 
 Here are three more examples of how comments can be used in PHP:
 
 Single-line comments:
-php
-Copy code
+```
 // This is a single-line comment
 echo "Hello, world!"; // This is also a comment
+```
+
 Multi-line comments:
-php
-Copy code
+
+```
 /* This is a
 multi-line comment
 that spans multiple lines */
 echo "Hello, world!";
 PHPDoc-style comments for a function:
 bash
-Copy code
+```
+
+```
 /**
  * Returns the sum of two integers
  *
@@ -76,12 +76,6 @@ function sum($a, $b) {
     return $a + $b;
 }
 
-
-
-Mokter Hossain
-continue
-I'm sorry, I did not receive any previous message from you. Can you please provide more details on what you would like me to continue with?
-
-
+```
 
 
