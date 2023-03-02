@@ -92,11 +92,11 @@ This repository is licensed under the MIT License.
 
 ## Contact 📧
 
-If you have any questions or comments, feel free to contact us at admin@gglink.uk.
+If you have any questions or comments, feel free to contact us at mo@gglink.uk.
 
 ## Project Link
 
-You can find this project on GitHub at https://github.com/Skills-Hub/PHP-Hacks.
+You can find this project on GitHub at https://skillstest.me
 
 
 
