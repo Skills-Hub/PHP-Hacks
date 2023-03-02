@@ -92,35 +92,4 @@ This repository is licensed under the MIT License.
 
 ## Contact 📧
 
-If you have any questions or comments, feel free to contact us at mo@gglink.uk.
-
-## Project Link
-
-You can find this project on GitHub at https://skillstest.me
-
-
-
-###### Here is the additional information you requested:
-
-### About description
-PHP-Hacks is a comprehensive PHP repository for developers with resources and interview questions.
-
-### Release notes
-
-# Title
-PHP-Hacks v1.0 Release: A Comprehensive Collection of PHP Resources
-
-# Description
-This release includes a comprehensive collection of PHP resources, including interview questions, functions, and syntax questions, that will help both beginners and experienced developers. Start exploring PHP-Hacks v1.0 today!
-
-### Tags
-PHP
-WebDevelopment
-Programming
-Coding
-Development
-OpenSource
-InterviewQuestions
-Functions
-Syntax
-Resources
+If you have any questions or comments, feel free to contact us at mo@gglink.uk 
