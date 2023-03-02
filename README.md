@@ -1,8 +1,8 @@
-# PHP-Hacks 💻
+# PHP-Hacks 🐘
 
 Welcome to the PHP-Hacks repository! This is a collection of various PHP resources including interview questions, functions, and syntax questions that can be useful for both beginner and experienced developers.
 
-# Guidelines 📜
+# Guidelines 🗂️
 Our repository includes a range of resources such as interview questions, functions, and syntax questions, all designed to help you develop your PHP skills. Our content is carefully curated to ensure that it is comprehensive, accurate, and up-to-date. We believe that by providing you with the right resources and information, you can improve your PHP knowledge and take your skills to the next level.
 
 ## Topics Covered 📁
