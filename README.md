@@ -16,22 +16,22 @@ Our repository includes a vast range of topics, from PHP syntax to advanced tech
 | [PHP Variables](https://github.com/Skills-Hub/PHP-Hacks/tree/main/variables) | Understanding variables in PHP |
 | [PHP Echo / Print](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Echo) | Learn how to display output in PHP |
 | [PHP Data Types](https://github.com/Skills-Hub/PHP-Hacks/tree/main/DataTypes) | Overview of PHP data types |
-| PHP Strings | Working with strings in PHP |
-| PHP Numbers | Working with numbers in PHP |
-| PHP Math | Basic math operations in PHP |
-| PHP Constants | Learn how to define constants in PHP |
-| PHP Operators | Overview of PHP operators |
-| PHP If...Else...Elseif | Learn how to use conditional statements in PHP |
-| PHP Switch | Learn how to use switch statements in PHP |
-| PHP Loops | Learn about the different types of loops in PHP |
-| PHP Functions | Learn how to create and use functions in PHP |
-| PHP Arrays | Working with arrays in PHP |
-| PHP Superglobals | Understanding PHP Superglobals |
-| PHP RegEx | Introduction to Regular Expressions in PHP |
-| PHP Form Handling | Learn how to handle HTML forms in PHP |
-| PHP Form Validation | Learn how to validate form input in PHP |
-| PHP Form Required | Learn how to make form fields required in PHP |
-| PHP Form URL/E-mail | Learn how to validate URL and email form input in PHP |
+| [PHP Strings](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Strings) | Working with strings in PHP |
+| [PHP Numbers](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Numbers) | Working with numbers in PHP |
+| [PHP Math](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Math) | Basic math operations in PHP |
+| [PHP Constants](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Constants) | Learn how to define constants in PHP |
+| [PHP Operators](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Operators) | Overview of PHP operators |
+| [PHP If...Else...Elseif](https://github.com/Skills-Hub/PHP-Hacks/tree/main/If...Else...Elseif) | Learn how to use conditional statements in PHP |
+| [PHP Switch](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Switch) | Learn how to use switch statements in PHP |
+| [PHP Loops](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Loops) | Learn about the different types of loops in PHP |
+| [PHP Functions](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Functions) | Learn how to create and use functions in PHP |
+| [PHP Arrays](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Arrays) | Working with arrays in PHP |
+| [PHP Superglobals](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Superglobals) | Understanding PHP Superglobals |
+| [PHP RegEx](https://github.com/Skills-Hub/PHP-Hacks/tree/main/RegEx) | Introduction to Regular Expressions in PHP |
+| [PHP Form Handling](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20Handling) | Learn how to handle HTML forms in PHP |
+| [PHP Form Validation](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20Validation) | Learn how to validate form input in PHP |
+| [PHP Form Required](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20Required) | Learn how to make form fields required in PHP |
+| [PHP Form URL/E-mail](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20URL%20or%20E-mail) | Learn how to validate URL and email form input in PHP |
 | PHP Form Complete | Learn how to create a complete PHP form |
 | PHP Advanced | Advanced PHP topics |
 | PHP Date and Time | Working with dates and times in PHP |
