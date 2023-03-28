@@ -12,7 +12,7 @@ Our repository includes a vast range of topics, from PHP syntax to advanced tech
 | Topic | Description |
 |-------|-------------|
 | [PHP Syntax](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Syntax) | Introduction to PHP syntax |
-| PHP Comments | Learn how to add comments in PHP |
+| [PHP Comments](https://github.com/Skills-Hub/PHP-Hacks/tree/main/comments) | Learn how to add comments in PHP |
 | PHP Variables | Understanding variables in PHP |
 | PHP Echo / Print | Learn how to display output in PHP |
 | PHP Data Types | Overview of PHP data types |
