@@ -41,31 +41,28 @@ Our repository includes a vast range of topics, from PHP syntax to advanced tech
 | [PHP File Create/Write](https://github.com/Skills-Hub/PHP-Hacks/tree/main/File%20Create%20Or%20Write) | Learn how to create and write to files in PHP |
 | [PHP File Upload](https://github.com/Skills-Hub/PHP-Hacks/tree/main/File%20Upload) | Learn how to handle file uploads in PHP |
 | [PHP Cookies](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Cookies) | Learn how to work with cookies in PHP |
-| PHP Sessions | Learn how to work with sessions in PHP |
-| PHP Filters | Learn how to filter user input in PHP |
-| PHP Filters Advanced | Advanced filtering in PHP |
-| PHP Callback Functions | Learn about callback functions in PHP |
-| PHP JSON | Working with JSON data in PHP |
-| PHP Exceptions | Learn how to handle exceptions in PHP |
-| PHP OOP | Introduction to Object Oriented Programming (OOP) in PHP |
-| PHP What is OOP | Learn about OOP and its benefits in PHP |
-| PHP Classes/Objects | Learn how to define and use classes and objects in PHP |
-| PHP Constructor | Learn about constructors in PHP |
-| PHP Destructor | Learn about destructors in PHP |
-| PHP Access Modifiers | Learn about access modifiers in PHP |
-| PHP Inheritance | Learn about inheritance in PHP |
-| PHP Constants | Learn about constants in PHP |
-| PHP Abstract Classes | Learn about abstract classes in PHP |
-| PHP Interfaces | Learn about interfaces in PHP |
-| PHP Traits | Learn about traits in PHP |
-| PHP Static Methods | Learn about static methods in PHP |
-| PHP Static Properties | Learn about static properties in PHP |
-| PHP Namespaces | Learn about namespaces in PHP |
-| PHP Iterables | Learn about iterables in PHP |
-| PHP XML | Working with XML data in PHP |
-| PHP XML Parsers | Learn how to parse XML data in PHP |
-| PHP SimpleXML Parser | Learn how to use the SimpleXML parser in PHP |
-| PHP SimpleXML - Get | Learn how to extract data using SimpleXML in PHP |
+| [PHP Sessions](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Sessions) | Learn how to work with sessions in PHP |
+| [PHP Filters](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Filters) | Learn how to filter user input in PHP |
+| [PHP Filters Advanced](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Filters%20Advanced) | Advanced filtering in PHP |
+| [PHP Callback Functions](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Callback%20Functions) | Learn about callback functions in PHP |
+| [PHP JSON](https://github.com/Skills-Hub/PHP-Hacks/tree/main/JSON) | Working with JSON data in PHP |
+| [PHP Exceptions](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Exceptions) | Learn how to handle exceptions in PHP |
+| [PHP OOP](https://github.com/Skills-Hub/PHP-Hacks/tree/main/OOP) | Introduction to Object Oriented Programming (OOP) in PHP |
+| [PHP Classes/Objects](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Classes%20Or%20Objects) | Learn how to define and use classes and objects in PHP |
+| [PHP Constructor](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Constructor) | Learn about constructors in PHP |
+| [PHP Destructor](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Destructor) | Learn about destructors in PHP |
+| [PHP Access Modifiers](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Access%20Modifiers) | Learn about access modifiers in PHP |
+| [PHP Inheritance](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Inheritance) | Learn about inheritance in PHP |
+| [PHP Abstract Classes](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Abstract%20Classes) | Learn about abstract classes in PHP |
+| [PHP Interfaces](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Interfaces) | Learn about interfaces in PHP |
+| [PHP Traits](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Traits) | Learn about traits in PHP |
+| [PHP Static Methods](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Static%20Methods) | Learn about static methods in PHP |
+| [PHP Static Properties](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Static%20Properties) | Learn about static properties in PHP |
+| [PHP Namespaces](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Namespaces) | Learn about namespaces in PHP |
+| [PHP Iterables](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Iterables) | Learn about iterables in PHP |
+| [PHP XML](https://github.com/Skills-Hub/PHP-Hacks/tree/main/XML) | Working with XML data in PHP |
+| [PHP XML Parsers](https://github.com/Skills-Hub/PHP-Hacks/tree/main/XML%20Parsers) | Learn how to parse XML data in PHP |
+| [PHP SimpleXML Parser](https://github.com/Skills-Hub/PHP-Hacks/tree/main/SimpleXML%20Parser) | Learn how to use the SimpleXML parser in PHP |
 
 ## Usage 🚀
 
