@@ -32,15 +32,15 @@ Our repository includes a vast range of topics, from PHP syntax to advanced tech
 | [PHP Form Validation](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20Validation) | Learn how to validate form input in PHP |
 | [PHP Form Required](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20Required) | Learn how to make form fields required in PHP |
 | [PHP Form URL/E-mail](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20URL%20or%20E-mail) | Learn how to validate URL and email form input in PHP |
-| PHP Form Complete | Learn how to create a complete PHP form |
-| PHP Advanced | Advanced PHP topics |
-| PHP Date and Time | Working with dates and times in PHP |
-| PHP Include | Learn how to include files in PHP |
-| PHP File Handling | Working with files in PHP |
-| PHP File Open/Read | Learn how to open and read files in PHP |
-| PHP File Create/Write | Learn how to create and write to files in PHP |
-| PHP File Upload | Learn how to handle file uploads in PHP |
-| PHP Cookies | Learn how to work with cookies in PHP |
+| [PHP Form Complete](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Form%20Complete) | Learn how to create a complete PHP form |
+| [PHP Advanced](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Advanced) | Advanced PHP topics |
+| [PHP Date and Time](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Date%20and%20Time) | Working with dates and times in PHP |
+| [PHP Include](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Include) | Learn how to include files in PHP |
+| [PHP File Handling](https://github.com/Skills-Hub/PHP-Hacks/tree/main/File%20Handling) | Working with files in PHP |
+| [PHP File Open/Read](https://github.com/Skills-Hub/PHP-Hacks/tree/main/File%20Open%20or%20Read) | Learn how to open and read files in PHP |
+| [PHP File Create/Write](https://github.com/Skills-Hub/PHP-Hacks/tree/main/File%20Create%20Or%20Write) | Learn how to create and write to files in PHP |
+| [PHP File Upload](https://github.com/Skills-Hub/PHP-Hacks/tree/main/File%20Upload) | Learn how to handle file uploads in PHP |
+| [PHP Cookies](https://github.com/Skills-Hub/PHP-Hacks/tree/main/Cookies) | Learn how to work with cookies in PHP |
 | PHP Sessions | Learn how to work with sessions in PHP |
 | PHP Filters | Learn how to filter user input in PHP |
 | PHP Filters Advanced | Advanced filtering in PHP |
