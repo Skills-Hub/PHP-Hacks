@@ -1,14 +1,27 @@
 <?php
-// CSVReader class to read CSV files and convert to HTML table
+/**
+ * CSVReader class to read CSV files and convert to HTML table
+ */
 class CSVReader {
+    /**
+     * @var string The file path of the CSV file to read
+     */
     private $filePath;
 
+    /**
+     * Constructs a new CSVReader object with the specified file path
+     *
+     * @param string $filePath The file path of the CSV file to read
+     */
     public function __construct($filePath) {
         $this->filePath = $filePath;
     }
 
-    // method to convert CSV to HTML table
+    /**
+     * Converts the CSV file to an HTML table and outputs it to the browser
+     */
     public function convertToHTMLTable() {
+        // Open the CSV file for reading
         $csvFile = fopen($this->filePath, 'r');
 
         if ($csvFile !== false) {
@@ -31,6 +44,7 @@ class CSVReader {
             // Close the table
             echo '</table>';
 
+            // Close the CSV file
             fclose($csvFile);
         }
     }
