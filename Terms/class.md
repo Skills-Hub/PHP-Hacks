@@ -1,92 +1,66 @@
+### Class
 
-**1. Class**
+**What (Definition):** A class is a blueprint for creating objects. It defines attributes (also known as properties or fields) and behaviours (methods or functions) that its objects can have.
 
-**Real-life Practical Scenario:** 
-Think of a shoe shop. The blueprint for a specific type of shoe, say, "Sneakers", is defined with its attributes like size, color, and brand. This blueprint doesn't represent a specific sneaker, but the idea or concept of what a sneaker is.
+**Real-life example:** Think of a class as a blueprint for a product in a shopping store. Let's say, a "Shirt". The blueprint or "Class" for the shirt would define attributes like size, colour, and material. It would also define behaviours like "wear" or "wash".
 
-**5W Rule (Real-life):**
-- **What?** Blueprint of a sneaker.
-- **Who?** Shoe designers.
-- **When?** Before the actual sneakers are produced.
-- **Where?** In a shoe design studio.
-- **Why?** To provide a consistent design for creating specific sneakers.
+**Why (Evolution):** Before OOP, we had procedural programming. Data was often scattered and functions operated on it from outside. This made it challenging to maintain and scale code. OOP and the concept of classes brought data and behaviour together, making it more organized and encapsulated.
 
-**5W Coding Example:**
-- **What?** A `Class` in PHP.
-- **Who?** Developers.
-- **When?** Before creating objects.
-- **Where?** In a PHP script or file.
-- **Why?** To define the structure and behavior of objects.
+**How (Old vs. New):** In procedural programming, you'd have separate data structures and functions. Now, with OOP, data and functions related to an entity are bundled together in classes.
+
+**Future:** Classes and OOP are foundational, and while programming paradigms may evolve, the idea of organizing and encapsulating related data and behaviour is likely here to stay.
+
+**Code Example:**
 
 ```php
 /**
- * Class Sneaker - representing the blueprint of a sneaker.
+ * Class Shirt represents a blueprint for a Shirt.
  */
-class Sneaker {
-    /**
-     * @var string $color The color of the sneaker.
-     */
-    private $color;
+class Shirt {
 
     /**
-     * @var int $size The size of the sneaker.
+     * @var string The size of the shirt (e.g., "S", "M", "L").
      */
     private $size;
 
     /**
-     * @var string $brand The brand of the sneaker.
+     * @var string The color of the shirt.
      */
-    private $brand;
+    private $color;
 
     /**
-     * Sneaker constructor.
+     * Shirt constructor.
      *
-     * @param string $color
-     * @param int $size
-     * @param string $brand
+     * @param string $size  The size of the shirt.
+     * @param string $color The color of the shirt.
      */
-    public function __construct($color, $size, $brand) {
-        $this->color = $color;
+    public function __construct(string $size, string $color) {
         $this->size = $size;
-        $this->brand = $brand;
+        $this->color = $color;
     }
 
     /**
-     * Get the color of the sneaker.
+     * Wear the shirt.
      *
-     * @return string
+     * @return string Action result.
      */
-    public function getColor() {
-        return $this->color;
-    }
-
-    /**
-     * Get the size of the sneaker.
-     *
-     * @return int
-     */
-    public function getSize() {
-        return $this->size;
-    }
-
-    /**
-     * Get the brand of the sneaker.
-     *
-     * @return string
-     */
-    public function getBrand() {
-        return $this->brand;
+    public function wear(): string {
+        return "You're wearing a {$this->color} shirt of size {$this->size}.";
     }
 }
 
-// How to use the above class?
-
-// 1. Create a file named "Sneaker.php" and copy the above class definition into it.
-// 2. Include "Sneaker.php" in your main script.
-// 3. Instantiate the Sneaker class:
-
-include "Sneaker.php";
-
-$mySneaker = new Sneaker("Red", 42, "Nike");
-echo "I have a " . $mySneaker->getColor() . " " . $mySneaker->getBrand() . " sneaker of size " . $mySneaker->getSize() . ".";
+// Usage
+$shirt = new Shirt('M', 'Blue');
+echo $shirt->wear(); // Outputs: You're wearing a Blue shirt of size M.
 ```
+
+**Instructions on Usage:** 
+
+1. Define attributes (properties) for the class. For our Shirt class, we defined `size` and `color`.
+2. The `__construct` method is a special method called a constructor. It is invoked when you create a new instance of the class.
+3. Use encapsulation by setting properties as `private`. This prevents unwanted external modifications.
+4. Provide methods to interact with the object. Here, we have a `wear` method to simulate wearing the shirt.
+5. Instantiate an object of the class using the `new` keyword.
+6. Interact with the object using its methods.
+
+**Why this Way:** This method keeps data and behaviour encapsulated, making it easier to manage, read, and maintain. If there's a need to add a new attribute or behavior to the Shirt, it can be done within the class without affecting other parts of the codebase. This wasn't the case with procedural programming where functions and data were scattered, leading to potential side effects.
