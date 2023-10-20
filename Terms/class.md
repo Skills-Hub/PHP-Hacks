@@ -1,66 +1,73 @@
-### Class
 
-**What (Definition):** A class is a blueprint for creating objects. It defines attributes (also known as properties or fields) and behaviours (methods or functions) that its objects can have.
+### **Classes and Objects in PHP**
 
-**Real-life example:** Think of a class as a blueprint for a product in a shopping store. Let's say, a "Shirt". The blueprint or "Class" for the shirt would define attributes like size, colour, and material. It would also define behaviours like "wear" or "wash".
+Imagine visiting a store in Croydon named "GGLink Shirts & Tees". You see various types of shirts, each with attributes like colour, size, and price. Sonia Sabherwal, the store manager, has an organized catalogue that defines each type of shirt, its attributes, and behaviours (like discount methods, wash care instructions, etc.). In the world of coding, this catalogue is what we call a **Class**. The individual shirts you can buy or touch are the **Objects** of that class.
 
-**Why (Evolution):** Before OOP, we had procedural programming. Data was often scattered and functions operated on it from outside. This made it challenging to maintain and scale code. OOP and the concept of classes brought data and behaviour together, making it more organized and encapsulated.
+#### 1. **Why (The Evolution)**:
+Before object-oriented programming (OOP), if Meha Jerin wanted to code an online store, she would define each shirt's attributes and behaviours individually. If "GGLink Shirts & Tees" introduced a new shirt type in 2005, Meha would have to write a whole new set of codes just for that shirt, leading to repetitive and unmanageable code.
 
-**How (Old vs. New):** In procedural programming, you'd have separate data structures and functions. Now, with OOP, data and functions related to an entity are bundled together in classes.
+#### 2. **What (The Definition)**:
+A **Class** is a blueprint for creating objects. It defines attributes (like colour and size) and behaviours (methods/functions, like calculating discounts). An **Object** is an instance of a class - it's a tangible representation you can work with.
 
-**Future:** Classes and OOP are foundational, and while programming paradigms may evolve, the idea of organizing and encapsulating related data and behaviour is likely here to stay.
+#### 3. **How (Previous vs. Current Approach)**:
 
-**Code Example:**
+*Procedural Approach (Old Way)*:
+```php
+$shirt1_color = "Blue";
+$shirt1_size = "M";
+$shirt1_price = 20;
 
+function shirt1_discount($shirt1_price) {
+    return $shirt1_price * 0.9;  // 10% discount
+}
+
+// If Ryan wanted to introduce another shirt:
+$shirt2_color = "Red";
+$shirt2_size = "L";
+$shirt2_price = 25;
+
+function shirt2_discount($shirt2_price) {
+    return $shirt2_price * 0.9;
+}
+```
+
+*Object-Oriented Approach (New Way)*:
 ```php
 /**
- * Class Shirt represents a blueprint for a Shirt.
+ * Class representing a Shirt.
  */
 class Shirt {
+    public $color;
+    public $size;
+    public $price;
 
-    /**
-     * @var string The size of the shirt (e.g., "S", "M", "L").
-     */
-    private $size;
-
-    /**
-     * @var string The color of the shirt.
-     */
-    private $color;
-
-    /**
-     * Shirt constructor.
-     *
-     * @param string $size  The size of the shirt.
-     * @param string $color The color of the shirt.
-     */
-    public function __construct(string $size, string $color) {
-        $this->size = $size;
+    public function __construct($color, $size, $price) {
         $this->color = $color;
+        $this->size = $size;
+        $this->price = $price;
     }
 
     /**
-     * Wear the shirt.
-     *
-     * @return string Action result.
+     * Calculate the discounted price.
+     * @return float
      */
-    public function wear(): string {
-        return "You're wearing a {$this->color} shirt of size {$this->size}.";
+    public function discount() {
+        return $this->price * 0.9;
     }
 }
 
-// Usage
-$shirt = new Shirt('M', 'Blue');
-echo $shirt->wear(); // Outputs: You're wearing a Blue shirt of size M.
+$shirt1 = new Shirt("Blue", "M", 20);
+$shirt2 = new Shirt("Red", "L", 25);
 ```
 
-**Instructions on Usage:** 
+#### 4. **Benefit Analysis**:
+OOP reduces redundancy, making the code more maintainable and scalable. Instead of defining functions and variables for each shirt individually, Taj can create multiple shirt objects with different attributes using the same class. It promotes code reusability and modular development. However, for very simple and small tasks, OOP might seem overkill.
 
-1. Define attributes (properties) for the class. For our Shirt class, we defined `size` and `color`.
-2. The `__construct` method is a special method called a constructor. It is invoked when you create a new instance of the class.
-3. Use encapsulation by setting properties as `private`. This prevents unwanted external modifications.
-4. Provide methods to interact with the object. Here, we have a `wear` method to simulate wearing the shirt.
-5. Instantiate an object of the class using the `new` keyword.
-6. Interact with the object using its methods.
+#### 5. **Future Insight**:
+As online shopping platforms like "Guru Graphics Limited" become more sophisticated, OOP concepts may evolve to include more intricate patterns and structures, such as design patterns, to handle complex shopping behaviours seamlessly.
 
-**Why this Way:** This method keeps data and behaviour encapsulated, making it easier to manage, read, and maintain. If there's a need to add a new attribute or behavior to the Shirt, it can be done within the class without affecting other parts of the codebase. This wasn't the case with procedural programming where functions and data were scattered, leading to potential side effects.
+#### 6. **Code Illustration**:
+The aforementioned OOP code can be incorporated into any e-commerce platform to represent products like shirts. With further development, features like color variations, inventory management, and customer reviews can be added.
+
+In the past, if Filippo, the developer at GG, had to introduce a new attribute, say 'pattern', he'd have to change the code everywhere. Now, with OOP, he'd just update the Shirt class, making his life, and that of other developers at Guru Graphics Limited, simpler.
+
