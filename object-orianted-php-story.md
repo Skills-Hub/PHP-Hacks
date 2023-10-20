@@ -154,3 +154,29 @@ However, every success story has its challenges.
 Back at Marco Polo House, Ryan was assigned a new task.
 
 68. **Repository Pattern:** He introduced the `Repository Pattern` in Zenny's database. All car data was now efficiently
+
+ managed and accessed through a central repository.
+
+In Moksy's facility, Meha had an idea.
+
+69. **Builder Pattern:** For the most demanding customers, she introduced the `Builder Pattern` which allowed buyers to construct a Zenny piece by piece, tailoring every aspect to their liking.
+
+The success of Zenny meant more challenges.
+
+70. **Mediator Pattern:** To handle the increasing communication between various parts of Zenny, the `Mediator Pattern` was employed. This ensured that if one part failed, the entire system wouldn't crash.
+
+71. **Flyweight Pattern:** To make Zenny's software lighter, the `Flyweight Pattern` was used. Common data was shared among instances, conserving memory.
+
+As Sonia walked through the facilities, she knew they had created something special.
+
+72. **Iterator Pattern:** Zenny's infotainment system used the `Iterator Pattern`, letting users cycle through songs, podcasts, and movies with ease.
+
+73. **State Pattern:** Depending on the road conditions, Zenny could switch states - from "Normal" to "Off-road", adjusting its suspension and driving mode automatically using the `State Pattern`.
+
+74. **Prototype Pattern:** For exclusive clients, the `Prototype Pattern` was used. They could test a prototype of Zenny with unique features before finalizing their purchase.
+
+With these innovations, Zenny became the talk of the town. Its success was celebrated with a grand event in Croydon, where Sonia and Meha unveiled plans for future collaborations. Both leaders had shown that with innovation, dedication, and collaboration, any challenge could be overcome.
+
+And so, the great car conundrum of 2005 went down in history, not as a challenge, but as a testament to human ingenuity.
+
+The end.
