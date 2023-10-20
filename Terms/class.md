@@ -1,8 +1,11 @@
+
 ### **Classes and Objects in PHP**
 
----
+Imagine visiting a store in Croydon named "GGLink Shirts & Tees". You see various types of shirts, each with attributes like colour, size, and price. Sonia Sabherwal, the store manager, has an organised catalogue that defines each type of shirt, its attributes, and behaviours (like discount methods, wash care instructions, etc.). In the world of coding, this catalogue is what we call a **Class**. The individual shirts you can buy or touch are the **Objects** of that class.
 
 #### 1. **Why (The Evolution)**:
+Before the object-oriented programming (OOP) approach, if Meha Jerin wanted to code an online store, she'd define every shirt's attributes and behaviours individually. Let's take a look at how she'd have done this and the newer, more efficient way to achieve the same task.
+
 *Old Way vs. New Way (Coding Example)*:
 ```php
 // Old Way: 
@@ -10,7 +13,14 @@ $shirt1_colour = "Red";
 
 // New Way (OOP): 
 class Shirt {
+    /** @var string $colour Colour of the shirt */
     public $colour;
+
+    /**
+     * Shirt constructor.
+     * 
+     * @param string $colour Colour of the shirt.
+     */
     public function __construct($colour) {
         $this->colour = $colour;
     }
@@ -22,6 +32,8 @@ $shirt1 = new Shirt("Red");
 ---
 
 #### 2. **What (The Definition)**:
+A **Class** is a blueprint for creating objects. It defines attributes (like colour) and behaviours (methods/functions, like calculating discounts). An **Object** is an instance of a class; it's a real-world representation you can interact with.
+
 *Old Way vs. New Way (Coding Example)*:
 ```php
 // Old Way: 
@@ -61,7 +73,7 @@ function shirt2_discount($shirt2_price) {
 class Shirt {
     /** @var string $colour Colour of the shirt */
     public $colour;
-    
+
     /** @var float $price Price of the shirt */
     public $price;
 
@@ -93,6 +105,7 @@ $shirt2 = new Shirt("Red", 25);
 ---
 
 #### 4. **Benefit Analysis**:
+OOP reduces redundancy, making the code more maintainable and scalable. Instead of defining functions and variables for each shirt individually, Taj can create multiple shirt objects with different attributes using the same class. This promotes code reusability and modular development. However, for very simple tasks, OOP might seem excessive.
 
 *Old Way vs. New Way (Coding Example)*:
 ```php
@@ -118,6 +131,7 @@ class Shirt {
 ---
 
 #### 5. **Future Insight**:
+As online shopping platforms, like "Guru Graphics Limited", grow more advanced, OOP concepts might evolve to include more intricate patterns and structures, such as design patterns, to manage complex shopping behaviours smoothly.
 
 *Old Way vs. New Way (Coding Example)*:
 ```php
@@ -171,3 +185,6 @@ class Shirt {
 }
 ```
 
+---
+
+In the past, if Filippo, the developer at GG, wanted to introduce a new attribute, say 'pattern', he'd need to change the code everywhere. Now, with OOP, he'd only update the Shirt class, making his life, and that of other developers at Guru Graphics Limited, simpler.
